@@ -1,6 +1,8 @@
 # Searcher
 Excel spreadsheet that can search a large number of spreadsheets for specific text
 
+Searcher V5
+
 How to use Searcher:
 
 Download the spreadsheet to any machine that supports Excel 2010 or later (Searcher may work on earlier versions of Excel, however it has not been tested on earlier versions, so use at own risk). It can be placed anywhere, but for convenience it's recommended to place it in the same directory as the collection of spreadsheets you want to search.
@@ -51,3 +53,9 @@ Common problems:
 
 Annoying dialogue prompts.
 Although Searcher does it's best to suppress annoying dialogue prompts (for example, it will supply a default one letter password if no password is given to suppress password prompts, and it tries to silence any dialogue queries with events being disabled), it does not always succeed, especially with 'update links' style prompts. The user will have to attend to Searcher, as it's not truly fully automatic. On spreadsheets where there are no issues, Searcher often runs smoothly.
+
+Searcher V6
+
+Searcher Version 6 is now available in the Beta folder, however it is untested, use at own risk.
+
+If exiting first result is enabled, and opening first result is enabled, this adds the ability to automatically open a file in write mode (as opposed to read only mode).
