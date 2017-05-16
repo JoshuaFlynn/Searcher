@@ -1,6 +1,14 @@
 # Searcher
 Excel spreadsheet that can search a large number of spreadsheets for specific text
 
+Set up runtime libraries prior to using Searcher:
+
+In VB for Excel (F11 from Excel)
+Select Tools > References from the drop-down menu
+A listbox of available references will be displayed
+Tick the check-box next to 'Microsoft Scripting Runtime'
+- Credit to JohnEffland
+
 Searcher V5
 
 How to use Searcher:
