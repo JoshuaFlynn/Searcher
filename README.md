@@ -3,23 +3,22 @@ Excel spreadsheet that can search a large number of spreadsheets for specific te
 
 **Set up the runtime libraries for Searcher as appropriate to your work environment:**
 
-Press Alt + F11 to open the VBA menu.
+1) Open Searcher.
 
-Click Tools, then select References.
+2) Press the red X to close the user form if it appears.
 
-In the menu, scroll until you find the following and tick them [note, it may be possible to use Searcher with similar libraries, or without these, depending. These are just the libraries it has by default. Your mileage may vary.]:
+3) Press Alt + F11 to open the VBA menu.
 
-Visual Basic For Applications [default]
+4) Click Tools, then select References.
 
-Microsoft Excel 14.0 Object library [earlier versions may work, needed to open Excel files xlsx/xlsm etc]
+5) In the menu, scroll until you find the following and tick them [note, it may be possible to use Searcher with similar libraries, or without these, depending. These are just the libraries it has by default. Your mileage may vary.]:
 
-OLE Automation [appears to be unneeded, but your mileage may vary.]
-
-Microsoft Office 14.0 Object Library [earlier versions may work, needed for general object manipulations]
-
-Microsoft Forms 2.0 Object Library [needed for the main searcher form to load]
-
-Microsoft Scripting Runtime [needed to use script objects for drive name conversions etc]
+- Visual Basic For Applications [default]
+- Microsoft Excel 14.0 Object library [earlier versions may work, needed to open Excel files xlsx/xlsm etc]
+- OLE Automation [appears to be unneeded, but your mileage may vary.]
+- Microsoft Office 14.0 Object Library [earlier versions may work, needed for general object manipulations]
+- Microsoft Forms 2.0 Object Library [needed for the main searcher form to load]
+- Microsoft Scripting Runtime [needed to use script objects for drive name conversions etc]
 
 - Credit to JohnEffland for pointing out I hadn't included the libraries used
 
