@@ -36,7 +36,7 @@ You will be presented with an array of options to choose from.
 Text to search for at present (as of V5) only supports a maximum of two search terms. Future plans will include replacing it with a powerful logical syntax search engine, but at the meantime it only supports two text terms. You only need one term minimum.
 
 **Logic search:**
-You can specify the logic of the search. The options are:
+- You can specify the logic of the search. The options are:
 - OR: Find spreadsheets that have either or both options
 - XOR: Find spreadsheets that only have one term or the other
 - AND: Find spreadsheets that contain both terms
@@ -50,7 +50,7 @@ You can specify the logic of the search. The options are:
 
 
 **Directory to search:**
-You will then have a specify the directory you want to search, you can:
+- You will then have a specify the directory you want to search, you can:
 1) Type it in manually
 2) Use the current directory Searcher is in (which is why placing it with the files is a good idea. Searcher automatically excludes itself from search results).
 3) Search (navigate to) the directory you want to search.
@@ -64,7 +64,7 @@ You will then have a specify the directory you want to search, you can:
 - This will not display your password (asterisk protected). Searcher does NOT retain the password (individuals may scour the code to check) beyond it's initial search. The password is exclusively for the spreadsheets you are wanting to search through. However, the password is stored plain text in temporary memory for the duration of the search, and a future plan is to give this a basic level of encryption. Password isn't necessary, but searcher can't open password protected spreadsheets without it.
 
 **Advanced options.**
-**You will have two options.**
+- **You will have two options.**
 - Break on first result. The program will stop searching as soon as it finds a valid matching spreadsheet.
 - Auto-open spreadsheet. The program will keep the successful spreadsheet open. Note that in order to avoid any issues, searcher opens all spreadsheets as READ ONLY, so you will not be able to save changes to the spreadsheet. If you want to do this, open it manually.
 
