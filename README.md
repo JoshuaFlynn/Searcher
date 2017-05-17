@@ -36,39 +36,40 @@ You will be presented with an array of options to choose from.
 
 Text to search for at present (as of V5) only supports a maximum of two search terms. Future plans will include replacing it with a powerful logical syntax search engine, but at the meantime it only supports two text terms. You only need one term minimum.
 
+**Logic search:**
 You can specify the logic of the search. The options are:
-OR: Find spreadsheets that have either or both options
-XOR: Find spreadsheets that only have one term or the other
-AND: Find spreadsheets that contain both terms
-NAND: Find spreadsheets that *don't* contain both terms.
-NOR AKA NEITHER: Find spreadsheets that *don't* contain either term.
-BUT NOT: Find spreadsheets that contain Term 1 BUT NOT Term 2.
+- OR: Find spreadsheets that have either or both options
+- XOR: Find spreadsheets that only have one term or the other
+- AND: Find spreadsheets that contain both terms
+- NAND: Find spreadsheets that *don't* contain both terms.
+- NOR AKA NEITHER: Find spreadsheets that *don't* contain either term.
+- BUT NOT: Find spreadsheets that contain Term 1 BUT NOT Term 2.
 
-Next to the above options will be checkboxes saying:
-Part?: This will search for the term in part of another word.
-Case sensitive?: This will search verbatim what you write, otherwise it will be case insensitive.
+**Next to the above options will be checkboxes saying:**
+- Part?: This will search for the term in part of another word.
+- Case sensitive?: This will search verbatim what you write, otherwise it will be case insensitive.
 
 
-Directory to search.
+**Directory to search:**
 You will then have a specify the directory you want to search, you can:
 1) Type it in manually
 2) Use the current directory Searcher is in (which is why placing it with the files is a good idea. Searcher automatically excludes itself from search results).
 3) Search (navigate to) the directory you want to search.
 
 
-Search sub-folders.
+**Search sub-folders:**
 Searcher has the ability to recursively search subfolders, which you can enable. This will carry the relative performance hit if enabled, however it's reasonably fast.
 
 
-Password.
+**Password:**
 This will not display your password (asterisk protected). Searcher does NOT retain the password (individuals may scour the code to check) beyond it's initial search. The password is exclusively for the spreadsheets you are wanting to search through. However, the password is stored plain text in temporary memory for the duration of the search, and a future plan is to give this a basic level of encryption. Password isn't necessary, but searcher can't open password protected spreadsheets without it.
 
-Advanced options.
-You will have two options.
-Break on first result. The program will stop searching as soon as it finds a valid matching spreadsheet.
-Auto-open spreadsheet. The program will keep the successful spreadsheet open. Note that in order to avoid any issues, searcher opens all spreadsheets as READ ONLY, so you will not be able to save changes to the spreadsheet. If you want to do this, open it manually.
+**Advanced options.**
+**You will have two options.**
+- Break on first result. The program will stop searching as soon as it finds a valid matching spreadsheet.
+- Auto-open spreadsheet. The program will keep the successful spreadsheet open. Note that in order to avoid any issues, searcher opens all spreadsheets as READ ONLY, so you will not be able to save changes to the spreadsheet. If you want to do this, open it manually.
 
-Output box.
+**Output box.**
 The output box records Searcher's search results and progress, even notifying which spreadsheets it fails to open. This can be exported to a txt file for larger analysis, or copy and pasted from the box directly.
 
 **Common problems:**
