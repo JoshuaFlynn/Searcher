@@ -58,11 +58,11 @@ You will then have a specify the directory you want to search, you can:
 
 
 **Search sub-folders:**
-Searcher has the ability to recursively search subfolders, which you can enable. This will carry the relative performance hit if enabled, however it's reasonably fast.
+- Searcher has the ability to recursively search subfolders, which you can enable. This will carry the relative performance hit if enabled, however it's reasonably fast.
 
 
 **Password:**
-This will not display your password (asterisk protected). Searcher does NOT retain the password (individuals may scour the code to check) beyond it's initial search. The password is exclusively for the spreadsheets you are wanting to search through. However, the password is stored plain text in temporary memory for the duration of the search, and a future plan is to give this a basic level of encryption. Password isn't necessary, but searcher can't open password protected spreadsheets without it.
+- This will not display your password (asterisk protected). Searcher does NOT retain the password (individuals may scour the code to check) beyond it's initial search. The password is exclusively for the spreadsheets you are wanting to search through. However, the password is stored plain text in temporary memory for the duration of the search, and a future plan is to give this a basic level of encryption. Password isn't necessary, but searcher can't open password protected spreadsheets without it.
 
 **Advanced options.**
 **You will have two options.**
@@ -70,15 +70,15 @@ This will not display your password (asterisk protected). Searcher does NOT reta
 - Auto-open spreadsheet. The program will keep the successful spreadsheet open. Note that in order to avoid any issues, searcher opens all spreadsheets as READ ONLY, so you will not be able to save changes to the spreadsheet. If you want to do this, open it manually.
 
 **Output box.**
-The output box records Searcher's search results and progress, even notifying which spreadsheets it fails to open. This can be exported to a txt file for larger analysis, or copy and pasted from the box directly.
+- The output box records Searcher's search results and progress, even notifying which spreadsheets it fails to open. This can be exported to a txt file for larger analysis, or copy and pasted from the box directly.
 
 **Common problems:**
 
 **Annoying dialogue prompts:**
-Although Searcher does it's best to suppress annoying dialogue prompts (for example, it will supply a default one letter password if no password is given to suppress password prompts, and it tries to silence any dialogue queries with events being disabled), it does not always succeed, especially with 'update links' style prompts. The user will have to attend to Searcher, as it's not truly fully automatic. On spreadsheets where there are no issues, Searcher often runs smoothly.
+- Although Searcher does it's best to suppress annoying dialogue prompts (for example, it will supply a default one letter password if no password is given to suppress password prompts, and it tries to silence any dialogue queries with events being disabled), it does not always succeed, especially with 'update links' style prompts. The user will have to attend to Searcher, as it's not truly fully automatic. On spreadsheets where there are no issues, Searcher often runs smoothly.
 
 **Slow performance between spreadsheets:**
-The speed of which Searcher loads a spreadsheet depends on the speed it would take to load up normally.
+- The speed of which Searcher loads a spreadsheet depends on the speed it would take to load it up normally. Larger spreadsheets take longer to load than smaller ones.
 
 # Searcher V6
 
