@@ -1,7 +1,7 @@
 # Searcher
 Excel spreadsheet that can search a large number of spreadsheets for specific text
 
-Set up the runtime libraries for Searcher as appropriate to your work environment:
+**Set up the runtime libraries for Searcher as appropriate to your work environment:**
 
 Press Alt + F11 to open the VBA menu.
 
@@ -23,9 +23,9 @@ Microsoft Scripting Runtime [needed to use script objects for drive name convers
 
 - Credit to JohnEffland for pointing out I hadn't included the libraries used
 
-Searcher V5
+# Searcher V5
 
-How to use Searcher:
+**How to use Searcher:**
 
 Download the spreadsheet to any machine that supports Excel 2010 or later (Searcher may work on earlier versions of Excel, however it has not been tested on earlier versions, so use at own risk). It can be placed anywhere, but for convenience it's recommended to place it in the same directory as the collection of spreadsheets you want to search.
 
@@ -71,13 +71,18 @@ Auto-open spreadsheet. The program will keep the successful spreadsheet open. No
 Output box.
 The output box records Searcher's search results and progress, even notifying which spreadsheets it fails to open. This can be exported to a txt file for larger analysis, or copy and pasted from the box directly.
 
-Common problems:
+**Common problems:**
 
-Annoying dialogue prompts.
+**Annoying dialogue prompts:**
 Although Searcher does it's best to suppress annoying dialogue prompts (for example, it will supply a default one letter password if no password is given to suppress password prompts, and it tries to silence any dialogue queries with events being disabled), it does not always succeed, especially with 'update links' style prompts. The user will have to attend to Searcher, as it's not truly fully automatic. On spreadsheets where there are no issues, Searcher often runs smoothly.
 
-Searcher V6
+**Slow performance between spreadsheets:**
+The speed of which Searcher loads a spreadsheet depends on the speed it would take to load up normally.
+
+# Searcher V6
 
 Searcher Version 6 is now available in the Beta folder, however it is untested, use at own risk.
 
 If exiting first result is enabled, and opening first result is enabled, this adds the ability to automatically open a file in write mode (as opposed to read only mode).
+
+Note, there appears to be a bug in V6 that at present needs fixing.
